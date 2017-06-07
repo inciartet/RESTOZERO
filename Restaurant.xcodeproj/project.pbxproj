@@ -110,6 +110,7 @@
 		BB9E343B1B8F2D6A00B0BB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E343A1B8F2D6A00B0BB75 /* AppDelegate.swift */; };
 		BB9E34401B8F2D6A00B0BB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E343E1B8F2D6A00B0BB75 /* Main.storyboard */; };
 		BB9E34421B8F2D6B00B0BB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E34411B8F2D6B00B0BB75 /* Assets.xcassets */; };
+		DC6F17F41EE8546600327764 /* Flurry in Resources */ = {isa = PBXBuildFile; fileRef = DC6F17F31EE8546600327764 /* Flurry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -235,6 +236,7 @@
 		BB9E343F1B8F2D6A00B0BB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB9E34411B8F2D6B00B0BB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E34461B8F2D6B00B0BB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC6F17F31EE8546600327764 /* Flurry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flurry; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,6 +278,7 @@
 		BB3D8DAC1B8F30F600C6F0C1 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				DC6F17F31EE8546600327764 /* Flurry */,
 				BB07716A1B94878C006225A4 /* Restaurant-Bridging-Header.h */,
 				BB0771591B9486B5006225A4 /* SlidingPanel */,
 			);
@@ -538,6 +541,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F17F41EE8546600327764 /* Flurry in Resources */,
 				BB3D8E0E1B8F30F700C6F0C1 /* background@3x.png in Resources */,
 				BB3D8E231B8F30F700C6F0C1 /* logo_menu@3x.png in Resources */,
 				BB3D8E431B8F30F700C6F0C1 /* star_chosen@2x.png in Resources */,

@@ -235,7 +235,6 @@
 		BB9E343F1B8F2D6A00B0BB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB9E34411B8F2D6B00B0BB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E34461B8F2D6B00B0BB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0EE3C801BB326640004A32C /* RestaurantWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RestaurantWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,13 +244,6 @@
 			files = (
 				BB3D8E4E1B8F317D00C6F0C1 /* QuartzCore.framework in Frameworks */,
 				BB3D8E4C1B8F317A00C6F0C1 /* MapKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0EE3C7D1BB326640004A32C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +456,6 @@
 			isa = PBXGroup;
 			children = (
 				BB9E34371B8F2D6A00B0BB75 /* Restaurant.app */,
-				E0EE3C801BB326640004A32C /* RestaurantWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -508,23 +499,6 @@
 			productReference = BB9E34371B8F2D6A00B0BB75 /* Restaurant.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E0EE3C7F1BB326640004A32C /* RestaurantWidget */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0EE3C8F1BB326640004A32C /* Build configuration list for PBXNativeTarget "RestaurantWidget" */;
-			buildPhases = (
-				E0EE3C7C1BB326640004A32C /* Sources */,
-				E0EE3C7D1BB326640004A32C /* Frameworks */,
-				E0EE3C7E1BB326640004A32C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RestaurantWidget;
-			productName = RestaurantWidget;
-			productReference = E0EE3C801BB326640004A32C /* RestaurantWidget.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -537,11 +511,6 @@
 					BB9E34361B8F2D6A00B0BB75 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = PFPD966GLP;
-						LastSwiftMigration = 0800;
-					};
-					E0EE3C7F1BB326640004A32C = {
-						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = H6U8N5Y52L;
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -560,7 +529,6 @@
 			projectRoot = "";
 			targets = (
 				BB9E34361B8F2D6A00B0BB75 /* Restaurant */,
-				E0EE3C7F1BB326640004A32C /* RestaurantWidget */,
 			);
 		};
 /* End PBXProject section */
@@ -650,13 +618,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E0EE3C7E1BB326640004A32C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -688,13 +649,6 @@
 				BB3D8E631B8F4C6F00C6F0C1 /* MenuItemTableViewCell.swift in Sources */,
 				BB3D8E651B8F4CCB00C6F0C1 /* MenuTableViewCell.swift in Sources */,
 				BB0771531B9481EC006225A4 /* FindUsViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0EE3C7C1BB326640004A32C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -846,34 +800,6 @@
 			};
 			name = Release;
 		};
-		E0EE3C8D1BB326640004A32C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = H6U8N5Y52L;
-				INFOPLIST_FILE = RestaurantWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AppsFoundation.Resto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		E0EE3C8E1BB326640004A32C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = H6U8N5Y52L;
-				INFOPLIST_FILE = RestaurantWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.AppsFoundation.Resto;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -891,15 +817,6 @@
 			buildConfigurations = (
 				BB9E344A1B8F2D6B00B0BB75 /* Debug */,
 				BB9E344B1B8F2D6B00B0BB75 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0EE3C8F1BB326640004A32C /* Build configuration list for PBXNativeTarget "RestaurantWidget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0EE3C8D1BB326640004A32C /* Debug */,
-				E0EE3C8E1BB326640004A32C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

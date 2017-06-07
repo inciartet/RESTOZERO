@@ -14,9 +14,6 @@
 		BB3D8E001B8F30F700C6F0C1 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB01B8F30F600C6F0C1 /* Configuration.plist */; };
 		BB3D8E011B8F30F700C6F0C1 /* Feedbacks.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB21B8F30F700C6F0C1 /* Feedbacks.plist */; };
 		BB3D8E021B8F30F700C6F0C1 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB31B8F30F700C6F0C1 /* MenuItems.plist */; };
-		BB3D8E031B8F30F700C6F0C1 /* KozGoPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB71B8F30F700C6F0C1 /* KozGoPro-Light.otf */; };
-		BB3D8E041B8F30F700C6F0C1 /* KozGoPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB81B8F30F700C6F0C1 /* KozGoPro-Medium.otf */; };
-		BB3D8E051B8F30F700C6F0C1 /* KozGoPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB91B8F30F700C6F0C1 /* KozGoPro-Regular.otf */; };
 		BB3D8E061B8F30F700C6F0C1 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DBB1B8F30F700C6F0C1 /* arrow_left.png */; };
 		BB3D8E071B8F30F700C6F0C1 /* arrow_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DBC1B8F30F700C6F0C1 /* arrow_left@2x.png */; };
 		BB3D8E081B8F30F700C6F0C1 /* arrow_left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DBD1B8F30F700C6F0C1 /* arrow_left@3x.png */; };
@@ -110,7 +107,7 @@
 		BB9E343B1B8F2D6A00B0BB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E343A1B8F2D6A00B0BB75 /* AppDelegate.swift */; };
 		BB9E34401B8F2D6A00B0BB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9E343E1B8F2D6A00B0BB75 /* Main.storyboard */; };
 		BB9E34421B8F2D6B00B0BB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E34411B8F2D6B00B0BB75 /* Assets.xcassets */; };
-		DC6F17F41EE8546600327764 /* Flurry in Resources */ = {isa = PBXBuildFile; fileRef = DC6F17F31EE8546600327764 /* Flurry */; };
+		DCF77D401EE8C2FA006ABE94 /* Flurry in Resources */ = {isa = PBXBuildFile; fileRef = DCF77D3F1EE8C2FA006ABE94 /* Flurry */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -138,9 +135,6 @@
 		BB3D8DB01B8F30F600C6F0C1 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		BB3D8DB21B8F30F700C6F0C1 /* Feedbacks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feedbacks.plist; sourceTree = "<group>"; };
 		BB3D8DB31B8F30F700C6F0C1 /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
-		BB3D8DB71B8F30F700C6F0C1 /* KozGoPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Light.otf"; sourceTree = "<group>"; };
-		BB3D8DB81B8F30F700C6F0C1 /* KozGoPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Medium.otf"; sourceTree = "<group>"; };
-		BB3D8DB91B8F30F700C6F0C1 /* KozGoPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KozGoPro-Regular.otf"; sourceTree = "<group>"; };
 		BB3D8DBB1B8F30F700C6F0C1 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
 		BB3D8DBC1B8F30F700C6F0C1 /* arrow_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_left@2x.png"; sourceTree = "<group>"; };
 		BB3D8DBD1B8F30F700C6F0C1 /* arrow_left@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_left@3x.png"; sourceTree = "<group>"; };
@@ -236,7 +230,7 @@
 		BB9E343F1B8F2D6A00B0BB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB9E34411B8F2D6B00B0BB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E34461B8F2D6B00B0BB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC6F17F31EE8546600327764 /* Flurry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flurry; sourceTree = "<group>"; };
+		DCF77D3F1EE8C2FA006ABE94 /* Flurry */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flurry; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,7 +272,7 @@
 		BB3D8DAC1B8F30F600C6F0C1 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
-				DC6F17F31EE8546600327764 /* Flurry */,
+				DCF77D3F1EE8C2FA006ABE94 /* Flurry */,
 				BB07716A1B94878C006225A4 /* Restaurant-Bridging-Header.h */,
 				BB0771591B9486B5006225A4 /* SlidingPanel */,
 			);
@@ -349,9 +343,6 @@
 		BB3D8DB61B8F30F700C6F0C1 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				BB3D8DB71B8F30F700C6F0C1 /* KozGoPro-Light.otf */,
-				BB3D8DB81B8F30F700C6F0C1 /* KozGoPro-Medium.otf */,
-				BB3D8DB91B8F30F700C6F0C1 /* KozGoPro-Regular.otf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -541,7 +532,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6F17F41EE8546600327764 /* Flurry in Resources */,
 				BB3D8E0E1B8F30F700C6F0C1 /* background@3x.png in Resources */,
 				BB3D8E231B8F30F700C6F0C1 /* logo_menu@3x.png in Resources */,
 				BB3D8E431B8F30F700C6F0C1 /* star_chosen@2x.png in Resources */,
@@ -585,11 +575,9 @@
 				BB3D8E111B8F30F700C6F0C1 /* chosen_menu_item@3x.png in Resources */,
 				BB3D8E361B8F30F700C6F0C1 /* photo_item4.png in Resources */,
 				BB3D8E401B8F30F700C6F0C1 /* splash_screen_logo@2x.png in Resources */,
-				BB3D8E031B8F30F700C6F0C1 /* KozGoPro-Light.otf in Resources */,
 				BB3D8E1F1B8F30F700C6F0C1 /* location_marker@2x.png in Resources */,
 				BB9E34421B8F2D6B00B0BB75 /* Assets.xcassets in Resources */,
 				BB3D8E2D1B8F30F700C6F0C1 /* photo_item1.png in Resources */,
-				BB3D8E051B8F30F700C6F0C1 /* KozGoPro-Regular.otf in Resources */,
 				BB3D8E351B8F30F700C6F0C1 /* photo_item3@3x.png in Resources */,
 				BB3D8E211B8F30F700C6F0C1 /* logo_menu.png in Resources */,
 				BB3D8E451B8F30F700C6F0C1 /* star_unchosen.png in Resources */,
@@ -599,12 +587,12 @@
 				BB3D8E1E1B8F30F700C6F0C1 /* location_marker.png in Resources */,
 				BB3D8E251B8F30F700C6F0C1 /* logo_splash@2x.png in Resources */,
 				BB9E34401B8F2D6A00B0BB75 /* Main.storyboard in Resources */,
-				BB3D8E041B8F30F700C6F0C1 /* KozGoPro-Medium.otf in Resources */,
 				BB3D8E381B8F30F700C6F0C1 /* photo_item4@3x.png in Resources */,
 				BB3D8E461B8F30F700C6F0C1 /* star_unchosen@2x.png in Resources */,
 				BB3D8E1B1B8F30F700C6F0C1 /* location.png in Resources */,
 				BB3D8E101B8F30F700C6F0C1 /* chosen_menu_item@2x.png in Resources */,
 				BB3D8E1C1B8F30F700C6F0C1 /* location@2x.png in Resources */,
+				DCF77D401EE8C2FA006ABE94 /* Flurry in Resources */,
 				BB3D8E421B8F30F700C6F0C1 /* star_chosen.png in Resources */,
 				BB3D8E331B8F30F700C6F0C1 /* photo_item3.png in Resources */,
 				BB3D8E081B8F30F700C6F0C1 /* arrow_left@3x.png in Resources */,

@@ -1103,31 +1103,31 @@
                                                     <rect key="frame" x="0.0" y="1" width="375" height="126.5"/>
                                                     <subviews>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_chosen.png" translatesAutoresizingMaskIntoConstraints="NO" id="20e-g7-VpL">
-                                                            <rect key="frame" x="156" y="18" width="11" height="11"/>
+                                                            <rect key="frame" x="159.5" y="18" width="11" height="11"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="20e-g7-VpL" secondAttribute="height" multiplier="1:1" id="dAm-ID-BLc"/>
                                                             </constraints>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_chosen.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Go-gN-iMm">
-                                                            <rect key="frame" x="169" y="18" width="11" height="11"/>
+                                                            <rect key="frame" x="172.5" y="18" width="11" height="11"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="6Go-gN-iMm" secondAttribute="height" multiplier="1:1" id="IPk-ux-rjo"/>
                                                             </constraints>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_chosen.png" translatesAutoresizingMaskIntoConstraints="NO" id="APg-79-w3Y">
-                                                            <rect key="frame" x="182" y="18" width="11" height="11"/>
+                                                            <rect key="frame" x="185.5" y="18" width="11" height="11"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="APg-79-w3Y" secondAttribute="height" multiplier="1:1" id="34Y-1E-uKL"/>
                                                             </constraints>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_chosen.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ccl-Pe-Nso">
-                                                            <rect key="frame" x="195" y="18" width="11" height="11"/>
+                                                            <rect key="frame" x="198.5" y="18" width="11" height="11"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="Ccl-Pe-Nso" secondAttribute="height" multiplier="1:1" id="0f6-wR-PYy"/>
                                                             </constraints>
                                                         </imageView>
                                                         <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star_chosen.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZCQ-Hs-e41">
-                                                            <rect key="frame" x="208" y="18" width="11" height="11"/>
+                                                            <rect key="frame" x="211.5" y="18" width="11" height="11"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" secondItem="ZCQ-Hs-e41" secondAttribute="height" multiplier="1:1" id="uAm-7s-FfO"/>
                                                             </constraints>
@@ -1146,14 +1146,14 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="345" translatesAutoresizingMaskIntoConstraints="NO" id="ySO-tX-bGF">
-                                                    <rect key="frame" x="15" y="42" width="345" height="44"/>
+                                                    <rect key="frame" x="15" y="45" width="345" height="51.5"/>
                                                     <string key="text">Richard Brenson Richard Brenson Richard Brenson vRichard Brenson Richard BrensonRichard BrensonRichard Brenson  Richard Brenson Richard Brenson Richard  fdr BrensonRichard BrensonRichard Brenson Richard BrensonRichard BrensonRichard Brenson</string>
                                                     <fontDescription key="fontDescription" name="KozGoPro-Light" family="Kozuka Gothic Pro" pointSize="11"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Richard Brenson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faA-Ys-bRI">
-                                                    <rect key="frame" x="15" y="15" width="131" height="18"/>
+                                                    <rect key="frame" x="15" y="15" width="134.5" height="21"/>
                                                     <fontDescription key="fontDescription" name="KozGoPro-Regular" family="Kozuka Gothic Pro" pointSize="18"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>

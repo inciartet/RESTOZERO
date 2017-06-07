@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BB0771531B9481EC006225A4 /* FindUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0771521B9481EC006225A4 /* FindUsViewController.swift */; };
-		BB0771581B9486AE006225A4 /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0771561B9486AE006225A4 /* Appirater.m */; };
 		BB0771601B9486B5006225A4 /* EmptySegue.m in Sources */ = {isa = PBXBuildFile; fileRef = BB07715B1B9486B5006225A4 /* EmptySegue.m */; };
 		BB0771611B9486B5006225A4 /* MSSlidingPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB07715D1B9486B5006225A4 /* MSSlidingPanelController.m */; };
 		BB0771621B9486B5006225A4 /* MSViewControllerSlidingPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB07715F1B9486B5006225A4 /* MSViewControllerSlidingPanel.m */; };
-		BB0771671B9486BC006225A4 /* libFlurry_6.7.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0771661B9486BC006225A4 /* libFlurry_6.7.0.a */; };
 		BB3D8E001B8F30F700C6F0C1 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB01B8F30F600C6F0C1 /* Configuration.plist */; };
 		BB3D8E011B8F30F700C6F0C1 /* Feedbacks.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB21B8F30F700C6F0C1 /* Feedbacks.plist */; };
 		BB3D8E021B8F30F700C6F0C1 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB3D8DB31B8F30F700C6F0C1 /* MenuItems.plist */; };
@@ -129,18 +127,12 @@
 
 /* Begin PBXFileReference section */
 		BB0771521B9481EC006225A4 /* FindUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindUsViewController.swift; sourceTree = "<group>"; };
-		BB0771551B9486AE006225A4 /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		BB0771561B9486AE006225A4 /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
-		BB0771571B9486AE006225A4 /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		BB07715A1B9486B5006225A4 /* EmptySegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptySegue.h; sourceTree = "<group>"; };
 		BB07715B1B9486B5006225A4 /* EmptySegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptySegue.m; sourceTree = "<group>"; };
 		BB07715C1B9486B5006225A4 /* MSSlidingPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSlidingPanelController.h; sourceTree = "<group>"; };
 		BB07715D1B9486B5006225A4 /* MSSlidingPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSlidingPanelController.m; sourceTree = "<group>"; };
 		BB07715E1B9486B5006225A4 /* MSViewControllerSlidingPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSViewControllerSlidingPanel.h; sourceTree = "<group>"; };
 		BB07715F1B9486B5006225A4 /* MSViewControllerSlidingPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSViewControllerSlidingPanel.m; sourceTree = "<group>"; };
-		BB0771641B9486BC006225A4 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		BB0771651B9486BC006225A4 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
-		BB0771661B9486BC006225A4 /* libFlurry_6.7.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.7.0.a; sourceTree = "<group>"; };
 		BB07716A1B94878C006225A4 /* Restaurant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Restaurant-Bridging-Header.h"; sourceTree = "<group>"; };
 		BB3D8DB01B8F30F600C6F0C1 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 		BB3D8DB21B8F30F700C6F0C1 /* Feedbacks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Feedbacks.plist; sourceTree = "<group>"; };
@@ -244,7 +236,6 @@
 		BB9E34411B8F2D6B00B0BB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E34461B8F2D6B00B0BB75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0EE3C801BB326640004A32C /* RestaurantWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RestaurantWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0EE3C811BB326640004A32C /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB3D8E4E1B8F317D00C6F0C1 /* QuartzCore.framework in Frameworks */,
-				BB0771671B9486BC006225A4 /* libFlurry_6.7.0.a in Frameworks */,
 				BB3D8E4C1B8F317A00C6F0C1 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,16 +258,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BB0771541B9486AE006225A4 /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				BB0771551B9486AE006225A4 /* Appirater.h */,
-				BB0771561B9486AE006225A4 /* Appirater.m */,
-				BB0771571B9486AE006225A4 /* AppiraterDelegate.h */,
-			);
-			path = Appirater;
-			sourceTree = "<group>";
-		};
 		BB0771591B9486B5006225A4 /* SlidingPanel */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,23 +271,11 @@
 			path = SlidingPanel;
 			sourceTree = "<group>";
 		};
-		BB0771631B9486BC006225A4 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				BB0771641B9486BC006225A4 /* Flurry.h */,
-				BB0771651B9486BC006225A4 /* FlurryWatch.h */,
-				BB0771661B9486BC006225A4 /* libFlurry_6.7.0.a */,
-			);
-			name = Flurry;
-			path = Flurry/Flurry;
-			sourceTree = "<group>";
-		};
 		BB3D8DAB1B8F30E800C6F0C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				BB3D8E4D1B8F317D00C6F0C1 /* QuartzCore.framework */,
 				BB3D8E4B1B8F317A00C6F0C1 /* MapKit.framework */,
-				E0EE3C811BB326640004A32C /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			path = Restaurant/Frameworks;
@@ -317,9 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				BB07716A1B94878C006225A4 /* Restaurant-Bridging-Header.h */,
-				BB0771631B9486BC006225A4 /* Flurry */,
 				BB0771591B9486B5006225A4 /* SlidingPanel */,
-				BB0771541B9486AE006225A4 /* Appirater */,
 			);
 			path = 3rdParty;
 			sourceTree = "<group>";
@@ -712,7 +678,6 @@
 				BB3D8E6D1B8F53F100C6F0C1 /* FeedbacksManager.swift in Sources */,
 				BB9E343B1B8F2D6A00B0BB75 /* AppDelegate.swift in Sources */,
 				BB3D8E6B1B8F51D900C6F0C1 /* ReservationLocationTableViewCell.swift in Sources */,
-				BB0771581B9486AE006225A4 /* Appirater.m in Sources */,
 				BB3D8E5C1B8F449700C6F0C1 /* Feedback.swift in Sources */,
 				BB3D8E5F1B8F478D00C6F0C1 /* FeedbackTableViewCell.swift in Sources */,
 				BB3D8E671B8F4D0600C6F0C1 /* NumberOfGuestsTableViewCell.swift in Sources */,

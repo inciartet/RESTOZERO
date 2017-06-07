@@ -26,10 +26,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // let flurrySessionId = ConfigurationManager.sharedManager.flurrySessionId
         // Flurry.startSession(flurrySessionId)
         
-        initAppiRater()
-        
         //init rate timer
-        initRateAppTimer()
+
         
         ThemeManager.sharedManager.applyNavigationBarTheme()
         UIApplication.shared.setStatusBarStyle(UIStatusBarStyle.lightContent, animated: false)
@@ -44,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func showAppRate() {
         let didShowAppRate = UserDefaults.standard.value(forKey: "showedAppRate") as? Bool
         if didShowAppRate != true {
-            rateApp()
+            
             UserDefaults.standard.set(true, forKey: "showedAppRate")
             UserDefaults.standard.synchronize()
         }
@@ -77,35 +75,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         rootController.closePanel()
     }
     
-    private func initAppiRater() {
-        Appirater.appLaunched(true)
-        Appirater.setAppId(ConfigurationManager.sharedManager.appId)
-        Appirater.setOpenInAppStore(true)
-    }
-    
-    private func initRateAppTimer() {
-        let didShowAppRate = UserDefaults.standard.value(forKey: "showedAppRate") as? Bool
-        if didShowAppRate != true {
-            let showRateDelay = TimeInterval(Double(ConfigurationManager.sharedManager.rateAppDelay)! * secondsInMinute)
-            Timer.scheduledTimer(timeInterval: showRateDelay, target: self, selector: #selector(AppDelegate.showAppRate), userInfo: nil, repeats: false)
-        }
-    }
-    
-    private func rateApp() {
-        let alertController = UIAlertController(title: "Rate the App", message: "Do you like this app?", preferredStyle: UIAlertControllerStyle.alert)
-        
-        //Create action for "No"
-        let noAction: UIAlertAction = UIAlertAction(title: "No", style: UIAlertActionStyle.cancel) { action -> Void in }
-        alertController.addAction(noAction)
-        
-        //Create action for "Yes"
-        let yesAction: UIAlertAction = UIAlertAction(title: "Yes", style: .default) { action -> Void in
-            Appirater.rateApp()
-        }
-        alertController.addAction(yesAction)
-        
-        window?.rootViewController!.present(alertController, animated: true, completion: nil)
-    }
 }
 
 // MARK: - UIAlertViewDelegate
@@ -113,11 +82,6 @@ extension AppDelegate: UIAlertViewDelegate {
     func alertView(_ alertView: UIAlertView, clickedButtonAt buttonIndex: Int) {
         if alertView.title == "Rate the App" {
             switch buttonIndex {
-            case RateApp.Declined.rawValue:
-                break
-            case RateApp.Confirmed.rawValue:
-                Appirater.rateApp()
-                break
             default:
                 break
             }

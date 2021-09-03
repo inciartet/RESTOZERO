@@ -10,14 +10,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World!")
-        Image(systemName: "gear")
+        List(0 ..< 5) { item in
+            Image(systemName: "gear")
+            VStack(alignment: .leading) {
+                Text("Hello World!")
+                Text("Hi !!!")
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewDevice("iPhone 8")
+            
     }
 }
